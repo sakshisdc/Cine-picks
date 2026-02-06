@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">    <!--added the language-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePicks - Movie Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🎬 CinePicks</h1>
+            <p class="tagline">Handpicked. Just for You. Your curated collection of great masterpieces.</p>
+        </div>
+    </header>
+
+     <div class="container">
+        <br>
+            <p><h2><bold>About this site</bold></h2></p>
+            <br>
+            
+            <p class="footer-tagline"> Created by a cinema lover who believes movies are more than entertainment — they are stories, emotions, and experiences.
+
+This platform curates timeless classics and hidden gems to help you discover meaningful cinema.</p>
+        </div>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <h2 class="filter-title">Filter by Genre</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-genre="all">All</button>
+                <button class="filter-btn" data-genre="animation">Animation</button>
+                <button class="filter-btn" data-genre="drama">Drama</button>
+                <button class="filter-btn" data-genre="sci-fi">Sci-Fi</button>
+                <button class="filter-btn" data-genre="action">Action</button>
+                <button class="filter-btn" data-genre="thriller">Thriller</button>
+                <button class="filter-btn" data-genre="horror">Horror</button>
+                <button class="filter-btn" data-genre="romance">Romance</button>
+                <button class="filter-btn" data-genre="adventure">Adventure</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Listing Section -->
+    <main class="movie-section">
+        <div class="container">
+            <div class="movie-grid">
+                
+                <!-- Movie Card 1 -->
+                <article class="movie-card" data-genre="animation">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (6).jpeg" alt="Moana Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Moana</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Animation</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <p class="movie-description">
+                            Moana, daughter of chief Tui, embarks on a journey to return the heart of goddess Te Fitti from Maui, a demigod, after the plants and the fish on her island start dying due to a blight.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 2 -->
+                <article class="movie-card" data-genre="sci-fi">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Interstellar_film_poster.jpg" alt="Interstellar Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Interstellar</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Sci-Fi</span>
+                            <span class="year">2014</span>
+                        </div>
+                        <p class="movie-description">
+                            A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 3 -->
+                <article class="movie-card" data-genre="action">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (4).jpeg" alt="Dhurandhar Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Dhurandhar</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Action</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <p class="movie-description">
+                            An underworld saga following a network of criminals, informants and operatives whose lives intersect, navigating covert operations, espionage and betrayals.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 4 -->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Guzaarish_poster.jpg" alt="Guzaarish Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Guzaarish</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2010</span>
+                        </div>
+                        <p class="movie-description">
+                            A paralyzed magician fights for his right to die with dignity while finding unexpected reasons to live.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 5 -->
+                <article class="movie-card" data-genre="thriller">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Parasite_(2019_film).png" alt="Parasite Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Parasite</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Thriller</span>
+                            <span class="year">2019</span>
+                        </div>
+                        <p class="movie-description">
+                            The struggling Kim family sees an opportunity when the son starts working for the wealthy Park family. Soon, all of them find a way to work within the same household and start living a parasitic life.
+                        </p>
+                    </div>
+                </article>
+                
+                <!-- Movie Card 6 -->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (1).jpeg" alt="The Promise Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Promise</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <p class="movie-description">
+                            Former bartender George Batra awaits his lost love's return after 20 years, hoping to reunite at the bar where they met and parted. As he waits for their fated reunion, he uncovers what he left behind
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 7-->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Gifted_poster.jpeg" alt="Gifted Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Gifted</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2017</span>
+                        </div>
+                        <p class="movie-description">
+                            A man fights for custody of his mathematically gifted niece against his mother who wants her in a school for the talented.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 8-->
+                <article class="movie-card" data-genre="sci-fi">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Jurassic_World_Rebirth_poster.jpg" alt="Jurassic World Rebirth Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Jurassic World Rebirth</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Sci-Fi</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <p class="movie-description">
+                           Five years post-Jurassic World: Dominion (2022), an expedition braves isolated equatorial regions to extract DNA from three massive prehistoric creatures for a groundbreaking medical breakthrough.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 9-->
+                <article class="movie-card" data-genre="sci-fi">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (1).webp" alt="Black Widow Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Black Widow</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Sci-Fi</span>
+                            <span class="year">2021</span>
+                        </div>
+                        <p class="movie-description">
+                           Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.
+                        </p>
+                    </div>
+                </article>
+
+                 <!-- Movie Card 10-->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (5).jpeg" alt="The Kashmir Files Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Kashmir Files</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2022</span>
+                        </div>
+                        <p class="movie-description">
+                            Krishna endeavours to uncover the reason behind his parents' brutal killings in Kashmir. He is shocked to uncover a web of lies and conspiracies in connection with the massive genocide.
+                        </p>
+                    </div>
+                </article>
+                
+                <!-- Movie Card 11 -->
+                <article class="movie-card" data-genre="thriller">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Split_(2017_film).jpg" alt="Split Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Split</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Thriller</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <p class="movie-description">
+                            Three girls are kidnapped by a man with 23 distinct personalities, and they must find a way to escape before his 24th personality emerges.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 12 -->
+                <article class="movie-card" data-genre="animation">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Coco_(2017_film)_poster.jpg" alt="Coco Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Coco</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Animation</span>
+                            <span class="year">2017</span>
+                        </div>
+                        <p class="movie-description">
+                            A young musician embarks on an extraordinary journey to the Land of the Dead to unlock his family's history.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 13 -->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (2).jpeg"alt="12th Fail Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">12<sup>th</sup>Fail</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2023</span>
+                        </div>
+                        <p class="movie-description">
+                           IPS officer Manoj Kumar Sharma fearlessly embraces the idea of restarting his academic journey and reclaiming his destiny at a place where millions of students attempt the world's toughest competitive exam: UPSC.
+                    </div>
+                </article>
+
+                <!-- Movie Card 14 -->
+                <article class="movie-card" data-genre="adventure">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download (7).jpeg" alt="Jumanji: Welcome to the Jungle Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Jumanji: Welcome to the Jungle</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Adventure</span>
+                            <span class="year">2017</span>
+                        </div>
+                        <p class="movie-description">
+                            When four students play with a magical video game, they are drawn to the jungle world of Jumanji, where they are trapped as their avatars. To return to the real world, they must finish the game
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 15 -->
+                <article class="movie-card" data-genre="horror">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Get_Out_poster.png" alt="Get Out Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Get Out</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Sci-Fi</span>
+                            <span class="year">2014</span>
+                        </div>
+                        <p class="movie-description">
+                            A Black man uncovers disturbing secrets when he meets his white girlfriend's family for the weekend.
+                    </div>
+                </article>
+
+                <!-- Movie Card 16 -->
+                <article class="movie-card" data-genre="animation">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\images (5).webp" alt="Avatar:The Way of Water">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Avatar:The Way of Water</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Animation</span>
+                            <span class="year">2022</span>
+                        </div>
+                        <p class="movie-description">
+                            Jake Sully and Neytiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 17-->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Mimi_2021_Hindi_poster.jpg" alt="Mimi Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Mimi</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2021</span>
+                        </div>
+                        <p class="movie-description">
+                            A young dancer agrees to be a surrogate mother for a foreign couple, but faces unexpected challenges when they back out.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 18 -->
+                <article class="movie-card" data-genre="romance">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\La_La_Land_(film).png" alt="La la land Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">La la land</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Romance</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <p class="movie-description">
+                            An aspiring actress and a jazz musician fall in love while pursuing their dreams in Los Angeles, but success tests their relationship.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 19 -->
+                <article class="movie-card" data-genre="sci-fi">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Inception_(2010)_theatrical_poster.jpg" alt="Inception Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Inception</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Sci-Fi</span>
+                            <span class="year">2010</span>
+                        </div>
+                        <p class="movie-description">
+                            A skilled thief who steals secrets from dreams is tasked with planting an idea deep within a target's subconscious.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 20 -->
+                <article class="movie-card" data-genre="thriller">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Taish_film_poster.jpg" alt="Taish Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Taish</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Thriller</span>
+                            <span class="year">2020</span>
+                        </div>
+                        <p class="movie-description">
+                            A revenge saga unfolds when a family celebration turns into a deadly confrontation fueled by past betrayals and violence.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 21  -->
+                <article class="movie-card" data-genre="horror">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Tumbbad_poster.jpg" alt="Tumbbad Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Tumbbad</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Horror</span>
+                            <span class="year">2018</span>
+                        </div>
+                        <p class="movie-description">
+                            A man's search for a hidden treasure in a cursed village spans generations and awakens an ancient evil.
+                        </p>
+                    </div>
+                </article>
+
+                 <!-- Movie Card 22 -->
+                <article class="movie-card" data-genre="romance">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download.jpeg" alt="Laila Majnu Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Laila Majnu</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Romance</span>
+                            <span class="year">2018</span>
+                        </div>
+                        <p class="movie-description">
+                            Two lovers, Qais and Laila, from Kashmir, are unable to unite as they face opposition from their families. However, when fate intervenes, Laila gets married to another guy while Qais goes to London.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 23 -->
+                <article class="movie-card" data-genre="action">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\download.webp" alt="F1 Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">F1</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Action</span>
+                            <span class="year">2025</span>
+                        </div>
+                        <p class="movie-description">
+                            A Formula One driver comes out of retirement to mentor and team up with a younger driver.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 24 -->
+                <article class="movie-card" data-genre="animation">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\images (8).webp" alt="The Jungle Book">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Jungle Book</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Animation</span>
+                            <span class="year">2016</span>
+                        </div>
+                        <p class="movie-description">
+                            Mowgli is a boy brought up in the jungle by a pack of wolves. When Shere Khan, a tiger, threatens to kill him, a panther and a bear help him escape his clutches.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 25 -->
+                <article class="movie-card" data-genre="drama">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Piku.jpg" alt="Piku Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Piku</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Drama</span>
+                            <span class="year">2015</span>
+                        </div>
+                        <p class="movie-description">
+                            A daughter navigates life caring for her aging hypochondriac father during a road trip from Delhi to Kolkata.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 26 -->
+                <article class="movie-card" data-genre="documentary">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\images (1).jpeg" alt="The Attacks of 26/11 Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Attacks of 26/11</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Documentary</span>
+                            <span class="year">2013</span>
+                        </div>
+                        <p class="movie-description">
+                            The real story of ten terrorists, who sailed to Mumbai and waged war on the populace for the next 72 hours.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 27 -->
+                <article class="movie-card" data-genre="romance">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Jab_We_Met_Poster.jpg" alt="Jab We Met Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Jab We Met</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Romance</span>
+                            <span class="year">2007</span>
+                        </div>
+                        <p class="movie-description">
+                            A depressed businessman's life changes when he meets a talkative woman on a train who helps him find himself.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 28 -->
+                <article class="movie-card" data-genre="thriller">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Drishyam_2015_film.jpg" alt="Drishyam Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Drishyam</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Thriller</span>
+                            <span class="year">2022</span>
+                        </div>
+                        <p class="movie-description">
+                            A man goes to extreme lengths to protect his family after they commit an accidental crime.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 29 -->
+                <article class="movie-card" data-genre="documentary">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\images (6).webp" alt="The Man who knew Infinity Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">The Man who knew Infinity</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Documentary</span>
+                            <span class="year">2015</span>
+                        </div>
+                        <p class="movie-description">
+                            Srinivasa Ramanujan, an exceptionally gifted young mathematician, writes to Professor G H Hardy at Trinity College, Cambridge, and a beautiful friendship ensues between them.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Movie Card 30 -->
+                <article class="movie-card" data-genre="animation">
+                    <div class="movie-poster">
+                        <img src="D:\CinePicks\images\Encanto_poster.jpg" alt="Encanto Poster">
+                        <div class="overlay">
+                            <span class="view-more">View Details</span>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Encanto</h3>
+                        <div class="movie-meta">
+                            <span class="genre">Animation</span>
+                            <span class="year">2021</span>
+                        </div>
+                        <p class="movie-description">
+                            A Colombian teenage girl struggles as the only member of her family without magical powers.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+
+        <div class="container">
+            <p>&copy; 2026. All rights reserved.</p>
+            <p class="footer-tagline">Celebrating cinema</p>
+            <p class="footer-tagline">Made with ❤️ by a cinephile at IITR</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
